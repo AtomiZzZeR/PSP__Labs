@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying a picture</title>
+</head>
+
+<body style="font-size: 36px; text-align: center;">
+    <form name="DisplayForm" method="post" action="PictureServlet" style="margin-top: 18px;">
+        <b style="color: red;">Enter</b> the topic of the image: <input type="text" name="DisplayPicture"
+            style="font-size: 36px; background: lightgray;">
+        <input type="submit" value="Input" style="font-size: 36px;">
+    </form>
+    <select style="font-size: 36px; margin-top: 18px; border: 2px dashed #000" multiple size="3">
+        <option style="color: red; border-bottom: 2px solid #000" disabled>Select topic</option>
+        <option>Nature</option>
+        <option>Childs</option>
+        <option>Cars</option>
+        <option>Animals</option>
+        <option>Cities</option>
+    </select>
+</body>
+
+</html>
