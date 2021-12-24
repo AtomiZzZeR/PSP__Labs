@@ -1,0 +1,133 @@
+* {
+  background-color: #000;
+}
+
+#effect-1, #effect-2, #effect-3, #effect-4, #effect-5 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 20%;
+  width: 700px;
+  height: 500px;
+}
+
+#effect-1 {
+  animation: effect-1-animation 2s infinite;
+  box-shadow: 0 0 40px 25px green;
+}
+
+#effect-2 {
+  animation: effect-2-animation 5s infinite;
+  box-shadow: 0 0 40px 25px yellow;
+}
+
+#effect-3 {
+  animation: effect-3-animation 6s infinite;
+  box-shadow: 0 0 40px 25px green: ;
+}
+
+ #effect-4 {
+  animation: effect-4-animation 2s infinite;
+  box-shadow: 0 0 40px 25px red;
+}
+
+#effect-5 {
+  animation: effect-5-animation 2s infinite;
+  box-shadow: 0 0 40px 25px blue;
+}
+
+#effect-6 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 20%;
+  width: 700px;
+  height: 500px;
+  animation: effect-6-animation 5s infinite linear;
+  box-shadow: 0 0 40px 10px blue;
+}
+
+@keyframes effect-6-animation {
+    0% {
+        transform:rotate(0deg);
+        background-color: red;
+    }
+    100% {
+        transform:rotate(360deg);
+        background-color: blue;
+    }
+}
+
+img {
+  border: 3px dashed red;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 20%;
+}
+
+@keyframes effect-1-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes effect-2-animation {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes effect-3-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes effect-4-animation {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes effect-5-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
