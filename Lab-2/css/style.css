@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  height: 150px;
+  border-bottom: 5px solid green;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: Arial;
+  color: green;
+  background-color: #000;
+}
+
+footer {
+  height: 60px;
+  border-top: 5px solid green;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: green;
+  font-family: Arial;
+  background-color: #000;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+  float: right;
+}
+
+input {
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
